@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  my_telegram_bot:
+    image: my_telegram_bot
+    restart: unless-stopped
